@@ -1,0 +1,47 @@
+﻿@inherits LayoutComponentBase
+@inject UserState UserState
+@inject DataManager DataManager
+<div class="main-layout">
+    <header class="nav-bar">
+        <NavLink href="/" class="nav-item">Login</NavLink>
+        <NavLink href="find" class="nav-item">Find</NavLink>
+        <NavLink href="predictor" class="nav-item">Predictor</NavLink>
+            <NavLink href="history" class="nav-item">History</NavLink>
+    </header>
+
+    <main class="BackgroundClass">
+        @Body
+    </main>
+</div>
+@code{
+    private string BackgroundClass;
+    protected override void OnInitialized()
+    {
+        UserState.OnChange += StateHasChanged;
+        var currentUri = NavigationManager.Uri.ToLower();
+        if (currentUri.Contains("predictor"))
+            BackgroundClass = "predictor-background";
+        else if (currentUri.Contains("history"))
+            BackgroundClass = "history-background";
+        else if (currentUri.Contains("find"))
+            BackgroundClass = "find-background";
+        else if (currentUri.Contains("home"))
+            BackgroundClass = "home-background";
+        else
+            BackgroundClass = "default-background";
+         
+        if (UserState.DataManager == null)
+            UserState.DataManager = DataManager;
+    }
+    
+    
+    public void Dispose()
+    {
+        UserState.OnChange -= StateHasChanged;
+    }
+
+    [Inject]
+    NavigationManager NavigationManager { get; set; }
+
+    
+}

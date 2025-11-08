@@ -1,0 +1,2579 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-30T01:56:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/262962652",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Highlands Coffee",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6653045,
+          10.8132325
+        ]
+      },
+      "id": "way/262962652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372305010",
+        "addr:district": "Phú Nhuận",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Hẻm 129 Hoàng Văn Thụ",
+        "addr:subdistrict": "Phường 8",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cà phê Làng Văn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6751472,
+          10.7980913
+        ]
+      },
+      "id": "way/372305010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/376483150",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cà phê Cõi Xưa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6674462,
+          10.7960213
+        ]
+      },
+      "id": "way/376483150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509782240",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Trinh Cafe",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6640498,
+          10.7877933
+        ]
+      },
+      "id": "way/509782240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/715623189",
+        "amenity": "cafe",
+        "name": "Cà Phê Du Miên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6760528,
+          10.7923386
+        ]
+      },
+      "id": "node/715623189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/860695637",
+        "amenity": "cafe",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6715493,
+          10.7921192
+        ]
+      },
+      "id": "node/860695637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/860695676",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6710236,
+          10.7917292
+        ]
+      },
+      "id": "node/860695676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/863420423",
+        "amenity": "cafe",
+        "name": "Cà Phê Vườn Xuân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6797398,
+          10.7926596
+        ]
+      },
+      "id": "node/863420423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2176765022",
+        "amenity": "cafe",
+        "name": "Cà Phê Bobby Brewers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.676627,
+          10.7887204
+        ]
+      },
+      "id": "node/2176765022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2179447381",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Terrace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6735475,
+          10.7971795
+        ]
+      },
+      "id": "node/2179447381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2270284735",
+        "addr:city": "HCMC",
+        "addr:housenumber": "271/9",
+        "addr:postcode": "P10, Quan Phu Nhuan",
+        "addr:street": "Nguyễn Trọng Tuyển",
+        "amenity": "cafe",
+        "name": "Cà Phê TEE",
+        "phone": "08 3999 0101",
+        "smoking": "yes",
+        "website": "https://teecafe.vn/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6705977,
+          10.7969963
+        ]
+      },
+      "id": "node/2270284735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2276551166",
+        "addr:city": "HCMC",
+        "addr:housenumber": "221A",
+        "addr:postcode": "P8, Quan Phu Nhuan",
+        "addr:street": "Nguyễn Trọng Tuyển",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Miền Đồng Thảo",
+        "phone": "+84 8 38451357",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6752752,
+          10.7972044
+        ]
+      },
+      "id": "node/2276551166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2321481379",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Cà Phê 77",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6444373,
+          10.7920273
+        ]
+      },
+      "id": "node/2321481379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2926933201",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cà Phê The Fig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.676753,
+          10.797106
+        ]
+      },
+      "id": "node/2926933201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3246108180",
+        "amenity": "cafe",
+        "name": "Cà Phê No.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6606953,
+          10.7918912
+        ]
+      },
+      "id": "node/3246108180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3246108181",
+        "addr:street": "Hoàng Sa",
+        "amenity": "cafe",
+        "name": "Cà Phê Phố"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6633709,
+          10.7913315
+        ]
+      },
+      "id": "node/3246108181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3246108182",
+        "amenity": "cafe",
+        "name": "Coffee Bamboo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6651494,
+          10.7899609
+        ]
+      },
+      "id": "node/3246108182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3246108184",
+        "amenity": "cafe",
+        "name": "Cà Phê 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6749946,
+          10.7858593
+        ]
+      },
+      "id": "node/3246108184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3298156383",
+        "amenity": "cafe",
+        "name": "Cà Phê TeaCup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6760719,
+          10.8109794
+        ]
+      },
+      "id": "node/3298156383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3626360178",
+        "addr:city": "Ho Chi Minh City",
+        "addr:housenumber": "3",
+        "addr:street": "Hoàng Minh Giám",
+        "amenity": "cafe",
+        "name": "Cà Phê Kem",
+        "phone": "+84 8 39976656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6758786,
+          10.8107897
+        ]
+      },
+      "id": "node/3626360178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3758592318",
+        "amenity": "cafe",
+        "name": "Cà Phê Hoàng Mỹ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6766241,
+          10.7975461
+        ]
+      },
+      "id": "node/3758592318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3798941178",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Suối Nguồn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6680438,
+          10.7984019
+        ]
+      },
+      "id": "node/3798941178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4100911589",
+        "addr:housenumber": "86 Nguyễn Văn Sáng",
+        "addr:street": "Nguyễn Văn Săng",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Memory",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6332122,
+          10.7988787
+        ]
+      },
+      "id": "node/4100911589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4144053489",
+        "amenity": "cafe",
+        "name": "Cà Phê Xe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6748547,
+          10.7867661
+        ]
+      },
+      "id": "node/4144053489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4242307790",
+        "addr:housenumber": "100",
+        "addr:street": "Trần Huy Liệu",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Trầm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6777741,
+          10.7965646
+        ]
+      },
+      "id": "node/4242307790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4274858295",
+        "addr:housenumber": "281",
+        "addr:street": "Lê Văn Sỹ",
+        "amenity": "cafe",
+        "brand": "The Coffee House",
+        "brand:wikidata": "Q60775742",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "The Coffee House",
+        "name:en": "The Coffee House",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6680251,
+          10.794449
+        ]
+      },
+      "id": "node/4274858295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384877957",
+        "amenity": "cafe",
+        "cuisine": "Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6767207,
+          10.7946966
+        ]
+      },
+      "id": "node/4384877957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4439927089",
+        "addr:housenumber": "1B",
+        "addr:street": "Cộng Hoà",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Quán Cà Phê Phúc Long",
+        "name:vi": "Quán Cà Phê Phúc Long",
+        "phone": "+84 838 115 555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6606041,
+          10.8006115
+        ]
+      },
+      "id": "node/4439927089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4555067091",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "name:vi": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.652915,
+          10.8012431
+        ]
+      },
+      "id": "node/4555067091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4555524289",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "name:vi": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6576552,
+          10.8008777
+        ]
+      },
+      "id": "node/4555524289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4573478289",
+        "addr": "59 Lê Trung Nghĩa, Phường 12, Quận Tân Bình",
+        "amenity": "cafe",
+        "cuisine": "vietnamese;cambodian",
+        "name": "Cà Phê Sài Gòn Xưa Bà Pèo",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6504619,
+          10.8005802
+        ]
+      },
+      "id": "node/4573478289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4731902123",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Napoli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6403564,
+          10.8001479
+        ]
+      },
+      "id": "node/4731902123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4771814069",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cà Phê 116",
+        "outdoor_seating": "yes",
+        "phone": "0906686091",
+        "smoking": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6616523,
+          10.8079116
+        ]
+      },
+      "id": "node/4771814069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4772057721",
+        "amenity": "cafe",
+        "name": "Cà Phê 55 Đặng Văn Ngữ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6687077,
+          10.7933593
+        ]
+      },
+      "id": "node/4772057721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4776028523",
+        "amenity": "cafe",
+        "name": "Cà Phê Gió Bấc",
+        "name:vi": "cafe gió bấc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6693083,
+          10.8018269
+        ]
+      },
+      "id": "node/4776028523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4813571131",
+        "amenity": "cafe",
+        "name": "Cà Phê G"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6525444,
+          10.7998946
+        ]
+      },
+      "id": "node/4813571131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831937621",
+        "amenity": "cafe",
+        "name": "Cà Phê Ban Mê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6715369,
+          10.7861288
+        ]
+      },
+      "id": "node/4831937621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4831937721",
+        "amenity": "cafe",
+        "name": "BAN MÊ",
+        "name:vi": "BAN MÊ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6749402,
+          10.7846772
+        ]
+      },
+      "id": "node/4831937721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4882461221",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Cà Phê Language Exchange",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Minh",
+        "phone": "+84909724314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67914,
+          10.7899533
+        ]
+      },
+      "id": "node/4882461221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4903713336",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6630698,
+          10.7876352
+        ]
+      },
+      "id": "node/4903713336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4998833721",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6418898,
+          10.7896777
+        ]
+      },
+      "id": "node/4998833721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5021240370",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "81",
+        "addr:postcode": "70000",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Lê Trung Nghĩa",
+        "addr:subdistrict": "12",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Cư Bao Coffee",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6499751,
+          10.8006369
+        ]
+      },
+      "id": "node/5021240370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041362124",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6603004,
+          10.7873643
+        ]
+      },
+      "id": "node/5041362124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5140881021",
+        "addr:street": "23 Nguyễn Thái Bình, Q. Tân Bình",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Cũ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6592725,
+          10.7999408
+        ]
+      },
+      "id": "node/5140881021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5166972426",
+        "amenity": "cafe",
+        "name": "Cà Phê Berry Việt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6614449,
+          10.8058727
+        ]
+      },
+      "id": "node/5166972426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5171025921",
+        "addr:housenumber": "9b",
+        "addr:street": "Lam Sơn",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6665677,
+          10.8080733
+        ]
+      },
+      "id": "node/5171025921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5181352522",
+        "addr:housenumber": "417",
+        "addr:street": "Huỳnh Văn Bánh",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Nguyên Chất",
+        "opening_hours": "24/7",
+        "phone": "0939628228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.672422,
+          10.7919166
+        ]
+      },
+      "id": "node/5181352522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258744921",
+        "addr:housenumber": "51",
+        "addr:street": "Thăng Long",
+        "amenity": "cafe",
+        "brand": "The Coffee House",
+        "brand:wikidata": "Q60775742",
+        "cuisine": "coffee_shop;vietnamese",
+        "internet_access": "wlan",
+        "name": "The Coffee House",
+        "name:en": "The Coffee House",
+        "takeaway": "yes",
+        "website": "https://thecoffeehouse.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6605047,
+          10.8030231
+        ]
+      },
+      "id": "node/5258744921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5293846895",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6636179,
+          10.7868432
+        ]
+      },
+      "id": "node/5293846895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5293846900",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6633997,
+          10.7863836
+        ]
+      },
+      "id": "node/5293846900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296220732",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6565115,
+          10.7886001
+        ]
+      },
+      "id": "node/5296220732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296220736",
+        "addr:housenumber": "58",
+        "addr:street": "Vân Côi",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6564337,
+          10.7879163
+        ]
+      },
+      "id": "node/5296220736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5297876125",
+        "amenity": "cafe",
+        "name": "Cà Phê KDK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6561711,
+          10.786663
+        ]
+      },
+      "id": "node/5297876125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5298121922",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6579519,
+          10.7857492
+        ]
+      },
+      "id": "node/5298121922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5311491424",
+        "amenity": "cafe",
+        "name": "Highlands Coffee",
+        "not:brand:wikidata": "Q5759361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6630558,
+          10.8138794
+        ]
+      },
+      "id": "node/5311491424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315568022",
+        "amenity": "cafe",
+        "name:en": "bo gia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6718493,
+          10.7976761
+        ]
+      },
+      "id": "node/5315568022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5317566023",
+        "amenity": "cafe",
+        "name:ru": "хз, но работает после 23:00",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6725707,
+          10.7970203
+        ]
+      },
+      "id": "node/5317566023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331315522",
+        "addr:housenumber": "95/13",
+        "addr:postcode": "700000",
+        "addr:street": "Lê Văn Sỹ",
+        "amenity": "cafe",
+        "email": "ktfoods.vietnam@gmail.com",
+        "name": "Cà Phê T’s",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "phone": "+84239910157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6723935,
+          10.7909622
+        ]
+      },
+      "id": "node/5331315522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349359424",
+        "addr:city": "Thành phố Hồ Chí Minh",
+        "addr:district": "Quận Tân Bình",
+        "addr:housenumber": "84",
+        "addr:street": "Bành Văn Trân",
+        "addr:subdistrict": "Phường 7",
+        "amenity": "cafe",
+        "name": "Cà Phê Today"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6580522,
+          10.7884038
+        ]
+      },
+      "id": "node/5349359424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349532651",
+        "amenity": "cafe",
+        "name": "Cà Phê Hùng Mập"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.662569,
+          10.7943037
+        ]
+      },
+      "id": "node/5349532651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349532719",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6641395,
+          10.791997
+        ]
+      },
+      "id": "node/5349532719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349532968",
+        "amenity": "cafe",
+        "name": "Cà Phê 1076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6624913,
+          10.7927795
+        ]
+      },
+      "id": "node/5349532968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349533011",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6612266,
+          10.7900946
+        ]
+      },
+      "id": "node/5349533011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352152243",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6777453,
+          10.7967035
+        ]
+      },
+      "id": "node/5352152243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352258662",
+        "amenity": "cafe",
+        "name": "Trà Sữa Bubble House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6779109,
+          10.7925062
+        ]
+      },
+      "id": "node/5352258662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352258704",
+        "amenity": "cafe",
+        "name": "Cà Phê BoBaPop Taiwan Lattea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.678563,
+          10.7873053
+        ]
+      },
+      "id": "node/5352258704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5568092421",
+        "addr:street": "Hoàng Văn Thụ",
+        "amenity": "cafe",
+        "name:en": "Trung Nguyen Legend"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6655828,
+          10.8003311
+        ]
+      },
+      "id": "node/5568092421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5598591726",
+        "amenity": "cafe",
+        "name": "Cà Phê R&B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.663025,
+          10.8135104
+        ]
+      },
+      "id": "node/5598591726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5598591727",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6630019,
+          10.8130931
+        ]
+      },
+      "id": "node/5598591727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5804348060",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "263",
+        "addr:street": "Nguyễn Hồng Đào",
+        "addr:subdistrict": "14",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;bubble_tea",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cà Phê Royaltea",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6406975,
+          10.7901265
+        ]
+      },
+      "id": "node/5804348060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863234289",
+        "addr:street": "Bàu Cát 1",
+        "amenity": "cafe",
+        "name": "U Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6411388,
+          10.7949956
+        ]
+      },
+      "id": "node/5863234289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863371885",
+        "addr:housenumber": "56",
+        "addr:street": "Bạch Đằng",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;vietnamese",
+        "internet_access": "wlan",
+        "name:en": "Links Coffee",
+        "opening_hours": "Mo-Su 06:30-23:30",
+        "phone": "093 666 60 72",
+        "website": "https://www.facebook.com/linksbachdang/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6720259,
+          10.8146789
+        ]
+      },
+      "id": "node/5863371885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5875534785",
+        "addr:housenumber": "3",
+        "addr:street": "Trà Khúc",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name:en": "Urban Station Coffee",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "website": "https://urbanstation.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6646304,
+          10.8060159
+        ]
+      },
+      "id": "node/5875534785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5977516785",
+        "amenity": "cafe",
+        "name:en": "Amix Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6615984,
+          10.7907959
+        ]
+      },
+      "id": "node/5977516785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120689986",
+        "addr:street": "Trần Huy Liệu",
+        "amenity": "cafe",
+        "name": "Nhà Cà phê Du Lich",
+        "name:de": "Nha Ca Phe Du Lich",
+        "name:en": "Nha Ca Phe Du Lich",
+        "name:vi": "Nhà Cà Phê Du Lịch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6776541,
+          10.7972126
+        ]
+      },
+      "id": "node/6120689986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6133794485",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6297108,
+          10.7956074
+        ]
+      },
+      "id": "node/6133794485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6137146355",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "name": "Cà Phê Robica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.665667,
+          10.8057317
+        ]
+      },
+      "id": "node/6137146355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6137146356",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cà Phê The Bush",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6658923,
+          10.8061322
+        ]
+      },
+      "id": "node/6137146356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6157649387",
+        "amenity": "cafe",
+        "name:en": "Soul Specialty Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.677309,
+          10.7889799
+        ]
+      },
+      "id": "node/6157649387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6284329386",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6712086,
+          10.7982602
+        ]
+      },
+      "id": "node/6284329386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315388786",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6716952,
+          10.7864769
+        ]
+      },
+      "id": "node/6315388786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315390285",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.671798,
+          10.7869857
+        ]
+      },
+      "id": "node/6315390285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315390488",
+        "amenity": "cafe",
+        "name:en": "Rovina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6710519,
+          10.7849905
+        ]
+      },
+      "id": "node/6315390488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315673316",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6757201,
+          10.7916136
+        ]
+      },
+      "id": "node/6315673316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315676693",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6753836,
+          10.7917555
+        ]
+      },
+      "id": "node/6315676693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315683510",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6753017,
+          10.7916387
+        ]
+      },
+      "id": "node/6315683510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315686585",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6787525,
+          10.7872519
+        ]
+      },
+      "id": "node/6315686585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315686604",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6667907,
+          10.7944515
+        ]
+      },
+      "id": "node/6315686604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315687017",
+        "amenity": "cafe",
+        "name:en": "Xua & nay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6676261,
+          10.7985304
+        ]
+      },
+      "id": "node/6315687017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688295",
+        "amenity": "cafe",
+        "name:en": "Embassy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6667403,
+          10.7908862
+        ]
+      },
+      "id": "node/6315688295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688494",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6720392,
+          10.7871796
+        ]
+      },
+      "id": "node/6315688494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688495",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6719093,
+          10.7871363
+        ]
+      },
+      "id": "node/6315688495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688899",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6676277,
+          10.7991691
+        ]
+      },
+      "id": "node/6315688899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688901",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6667075,
+          10.794273
+        ]
+      },
+      "id": "node/6315688901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688904",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6665128,
+          10.7901372
+        ]
+      },
+      "id": "node/6315688904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6319103245",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.658849,
+          10.7949832
+        ]
+      },
+      "id": "node/6319103245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6370270085",
+        "addr:housenumber": "1/13",
+        "addr:street": "Hoàng Việt",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cà Phê Bob"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6600784,
+          10.7976592
+        ]
+      },
+      "id": "node/6370270085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6468374671",
+        "amenity": "cafe",
+        "cuisine": "taiwanese",
+        "name": "Cà Phê TenRen's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.665999,
+          10.8137433
+        ]
+      },
+      "id": "node/6468374671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6480055085",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Phú Nhuận",
+        "addr:housenumber": "53",
+        "addr:street": "Trương Quốc Dung",
+        "addr:subdistrict": "Phường 10",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "name": "Cà Phê Cây Đa",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6726335,
+          10.7961635
+        ]
+      },
+      "id": "node/6480055085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6545322518",
+        "addr:city": "thành phố Hồ Chí minh",
+        "addr:district": "Tân Bình",
+        "addr:street": "Lê Văn Sỹ",
+        "addr:subdistrict": "phường 1",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Trà Sữa Hoa Hướng Dương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6664559,
+          10.7957282
+        ]
+      },
+      "id": "node/6545322518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6545332810",
+        "addr:city": "thành phố Hồ Chí minh",
+        "addr:district": "Tân Bình",
+        "addr:street": "Lê Văn Sỹ",
+        "addr:subdistrict": "phường 1",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Trà sữa TenRen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6665753,
+          10.7956492
+        ]
+      },
+      "id": "node/6545332810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6789468256",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "2",
+        "addr:street": "Bạch Đằng",
+        "amenity": "cafe",
+        "name": "Cà Phê Fruzii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6664469,
+          10.8140826
+        ]
+      },
+      "id": "node/6789468256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6811490427",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6629647,
+          10.7842348
+        ]
+      },
+      "id": "node/6811490427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909743957",
+        "amenity": "cafe",
+        "brand": "The Coffee House",
+        "brand:wikidata": "Q60775742",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "The Coffee House",
+        "name:en": "The Coffee House",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6775437,
+          10.797307
+        ]
+      },
+      "id": "node/6909743957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6909743970",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6698875,
+          10.7957198
+        ]
+      },
+      "id": "node/6909743970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7003655059",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "35",
+        "addr:street": "Thăng Long",
+        "addr:subdistrict": "4",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cà Phê Amazing",
+        "opening_hours": "Mo-Sa",
+        "website": "https://amazingcoffee.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.660464,
+          10.8024671
+        ]
+      },
+      "id": "node/7003655059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7003732509",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "25",
+        "addr:street": "Thăng Long",
+        "addr:subdistrict": "4",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cà Phê Vacances"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6604674,
+          10.801903
+        ]
+      },
+      "id": "node/7003732509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7016252786",
+        "addr:city": "Thành phố Hồ Chí Minh",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "3",
+        "addr:street": "Phổ Quang",
+        "addr:subdistrict": "Phường 2",
+        "amenity": "cafe",
+        "name": "Cà Phê The Long",
+        "opening_hours": "Mo-Su 09:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6660918,
+          10.8036484
+        ]
+      },
+      "id": "node/7016252786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7944425985",
+        "addr:housenumber": "65",
+        "addr:street": "Gò Dầu",
+        "amenity": "cafe",
+        "name": "Cà Phê Thức"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6268519,
+          10.7957957
+        ]
+      },
+      "id": "node/7944425985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8049390086",
+        "amenity": "cafe",
+        "name": "Cà Phê Ngự Uyển"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6626678,
+          10.7887499
+        ]
+      },
+      "id": "node/8049390086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8746502553",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "24",
+        "addr:postcode": "700000",
+        "addr:street": "Đường C18",
+        "addr:subdistrict": "Phường 12",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;beer;fast_food;breakfast",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Cà Phê The Wolf King",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "0911687007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6508043,
+          10.7996745
+        ]
+      },
+      "id": "node/8746502553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8866304617",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tân Bình",
+        "addr:housenumber": "196/46",
+        "addr:postcode": "70000",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Hẻm 196 Cộng Hòa",
+        "addr:subdistrict": "Phường 12",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Cà Phê UUDAM",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "outdoor_seating": "yes",
+        "phone": "0983558880",
+        "website": "www.uudamgroup.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6503576,
+          10.802721
+        ]
+      },
+      "id": "node/8866304617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9584838628",
+        "amenity": "cafe",
+        "name": "Cà Phê Laha - Bàu Cát"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6452013,
+          10.7856157
+        ]
+      },
+      "id": "node/9584838628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9587042694",
+        "amenity": "cafe",
+        "name": "Phúc Long Coffee & Tea - Phổ Quang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6719765,
+          10.8086117
+        ]
+      },
+      "id": "node/9587042694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10137213715",
+        "addr:city": "Thành phố Hồ Chí Minh",
+        "addr:district": "Quận 3",
+        "addr:housenumber": "221/9",
+        "addr:postcode": "70000",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Lê Văn Sỹ",
+        "addr:subdistrict": "Phường 14",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Missing Garden",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+84932909982",
+        "power_supply": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.facebook.com/missing.garden/about",
+        "wheelchair": "limited",
+        "wheelchair:description:en": "Gravel access path. The second floor and toilets are inaccessible."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6791678,
+          10.7866904
+        ]
+      },
+      "id": "node/10137213715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10137471018",
+        "addr:housenumber": "791",
+        "addr:street": "Đường Lũy Bán Bích",
+        "amenity": "cafe",
+        "name": "The Coffee House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6366333,
+          10.7866294
+        ]
+      },
+      "id": "node/10137471018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10146829517",
+        "addr:housenumber": "220/12",
+        "addr:street": "Nguyễn Trọng Tuyển",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "vietnamese",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Quán Chay Và",
+        "name:en": "Cafe Here & Now",
+        "opening_hours": "Mo-Su 09:00-21:30",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6737883,
+          10.7983858
+        ]
+      },
+      "id": "node/10146829517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11080705505",
+        "addr:housenumber": "1221",
+        "addr:street": "Hoàng Sa",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Demi Coffee & Tea",
+        "name:en": "Demi Coffee",
+        "opening_hours": "Mo-Su 07:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.664722,
+          10.7908769
+        ]
+      },
+      "id": "node/11080705505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11218955170",
+        "amenity": "cafe",
+        "name": "Chồn Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.669979,
+          10.8143596
+        ]
+      },
+      "id": "node/11218955170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11404904479",
+        "amenity": "cafe",
+        "name": "Wayne's Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6729142,
+          10.809768
+        ]
+      },
+      "id": "node/11404904479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11417145521",
+        "amenity": "cafe",
+        "name": "Katinat Cộng Hòa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6606004,
+          10.8009983
+        ]
+      },
+      "id": "node/11417145521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438716839",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6403382,
+          10.7934562
+        ]
+      },
+      "id": "node/11438716839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438719430",
+        "amenity": "cafe",
+        "name": "Viva Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6414237,
+          10.7927168
+        ]
+      },
+      "id": "node/11438719430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11449101346",
+        "amenity": "cafe",
+        "brand": "Highlands Coffee",
+        "brand:wikidata": "Q5759361",
+        "cuisine": "coffee_shop;vietnamese",
+        "name": "Highlands Coffee",
+        "name:en": "Highlands Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6377789,
+          10.801391
+        ]
+      },
+      "id": "node/11449101346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11453123702",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "Bobapop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6360581,
+          10.8039477
+        ]
+      },
+      "id": "node/11453123702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11493934358",
+        "amenity": "cafe",
+        "check_date": "2024-01-06",
+        "name": "Lucky Cafe & Fastfood",
+        "name:en": "Lucky Cafe & Fastfood",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6620859,
+          10.8149252
+        ]
+      },
+      "id": "node/11493934358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11576385628",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Metrang Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6288384,
+          10.7880185
+        ]
+      },
+      "id": "node/11576385628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11707462337",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Phu Nhuan",
+        "addr:housenumber": "9",
+        "addr:postcode": "70000",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Duong D",
+        "addr:subdistrict": "Phuong 9",
+        "amenity": "cafe",
+        "cuisine": "vietnamese",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Little Du Mien Cafe",
+        "outdoor_seating": "yes",
+        "phone": "+84 28 35356115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6721598,
+          10.8089334
+        ]
+      },
+      "id": "node/11707462337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11827013654",
+        "amenity": "cafe",
+        "name": "Sorts Of Pho",
+        "name:vi": "Phở 18 Plus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6566999,
+          10.8014235
+        ]
+      },
+      "id": "node/11827013654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12477658467",
+        "amenity": "cafe",
+        "name": "Bông Trà Bàu Cát"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6416046,
+          10.7929863
+        ]
+      },
+      "id": "node/12477658467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12477658468",
+        "amenity": "cafe",
+        "name": "The Banned Bàu Cát"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6425435,
+          10.7922545
+        ]
+      },
+      "id": "node/12477658468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12504148358",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Phú Nhuận",
+        "addr:housenumber": "21",
+        "addr:street": "Hẻm 182 Lê Văn Sỹ",
+        "addr:subdistrict": "Phường 10",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Tĩnh Books and Coffee",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6707495,
+          10.7938455
+        ]
+      },
+      "id": "node/12504148358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12504148359",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Phú Nhuận",
+        "addr:housenumber": "1162",
+        "addr:street": "Trường Sa",
+        "addr:subdistrict": "Phường 13",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Kofuku Coffee",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6693837,
+          10.7886823
+        ]
+      },
+      "id": "node/12504148359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12557247251",
+        "addr:housenumber": "76",
+        "addr:street": "Yên Thế",
+        "amenity": "cafe",
+        "check_date": "2025-02-05",
+        "cuisine": "smoothie;dessert;ice_cream",
+        "name": "Sinh Tố 10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6683945,
+          10.8119002
+        ]
+      },
+      "id": "node/12557247251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12621001912",
+        "addr:city": "Thành phố Hồ Chí Minh",
+        "addr:district": "Quận Tân Bình",
+        "addr:housenumber": "236B/1b",
+        "addr:province": "Hồ Chí Minh",
+        "addr:street": "Hẻm 236 Lê Văn Sỹ",
+        "addr:subdistrict": "Phường 1",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "CỒ Tea House & Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6669335,
+          10.7960766
+        ]
+      },
+      "id": "node/12621001912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12644925782",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "Ours.càffe",
+        "opening_hours": "Mo-Su 07:00-21:30",
+        "outdoor_seating": "street",
+        "smoking": "outside",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6685797,
+          10.7935928
+        ]
+      },
+      "id": "node/12644925782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12650968246",
+        "amenity": "cafe",
+        "name": "Good Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6557515,
+          10.7916192
+        ]
+      },
+      "id": "node/12650968246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12652319883",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "only",
+        "indoor_seating": "yes",
+        "name": "Nhà Của Giản",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6693354,
+          10.7846986
+        ]
+      },
+      "id": "node/12652319883"
+    }
+  ]
+}

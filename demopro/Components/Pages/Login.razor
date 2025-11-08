@@ -1,0 +1,158 @@
+﻿@page "/"
+@inject NavigationManager Nav
+@inject UserState UserState
+@inject DataManager DataManager
+@rendermode InteractiveServer
+
+<PageTitle>Login</PageTitle>
+<div class="home-background">
+    @if (!UserState.IsLoggedIn)
+    {
+        <div class="login-form">
+            <h2 class = "headline">Please Log in</h2>
+            <input @bind="Username" placeholder="Enter your username" class="input-style" />
+            <input type="password" @bind="password" placeholder="Password" class="input-style" />
+            <button class="start-btn" @onclick="ILogin">Login</button>
+            @if (loginFailed)
+            {
+                <div class="alert alert-danger mt-2">Invalid username or password.</div>
+            }
+        </div>
+       
+    }
+    else
+    {
+        <div class="center-wrapper">
+            <div class="hello-box">
+                Hello <span class="name">@UserState.CurrentUser.Username</span>
+                <span class="premium-status">
+                    <p>@UserState.CurrentUser?.Username (@(UserState.IsPremiumUser ? "Premium" : "Standard"))</p>
+                </span>
+            </div>
+
+            @if (!UserState.IsPremiumUser)
+            {
+                <div class="alert alert-warning mt-3">
+                    Upgrade to premium to view your visit history!
+                </div>
+                <button class="start-btn mt-3" @onclick="GoToFind">Start finding</button>
+            }
+
+            <button class="btn btn-outline-danger mt-3" @onclick="ILogout">Log Out</button>
+        </div>
+    }
+</div>
+<style>
+    .home-background {
+        min-height: 100vh;
+        padding: 2rem;
+        background-color: #fffaf0;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .input-style {
+        width: 250px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+    
+    .start-btn {
+        background-color: #ffc933;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .center-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 1rem;
+        text-align: center;
+    }
+    .hello-box {
+        background-color: #F9EAC4;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+        font-family: 'Fredericka the Great', sans-serif;
+        font-weight: 600;
+        font-size: 4.2rem;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        color: #000;
+        margin-top: 2rem;
+    }
+
+    .name {
+        font-style: italic;
+        font-family: 'Fredericka the Great', cursive;
+        font-weight: normal;
+    }
+
+    .headline {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-group {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .premium-status p {
+        margin: 0.5rem 0 0 0;
+        font-size: 0.95rem;
+        font-style: italic;
+    }
+    
+</style>
+@code {
+    private string Username = "";
+    private string password = "";
+    private bool loginFailed = false;
+
+    private async Task ILogin()
+    {
+        loginFailed = !UserState.Login(Username, password);
+        if (!loginFailed)
+        {
+            UserState.Login(Username, password);
+            Console.WriteLine($"User logged in: {UserState.IsLoggedIn}");
+            await Task.Delay(100);
+            
+        }
+    }
+    private async Task ILogout()
+    {
+        await DataManager.ClearVisitHistoryAsync();
+        await UserState.LogoutAsync();
+        Nav.NavigateTo("/");
+
+    }
+    private void GoToFind()
+    {
+        Nav.NavigateTo("/find");
+    }
+}
+

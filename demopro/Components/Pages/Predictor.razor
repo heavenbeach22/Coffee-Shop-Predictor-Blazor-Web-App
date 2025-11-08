@@ -1,0 +1,157 @@
+﻿@page "/predictor"
+@inject NavigationManager Nav
+@inject UserState UserState
+@inject DataManager DataManager 
+@rendermode InteractiveServer
+@using demopro.Models
+@using demopro.Services
+@using System.Diagnostics
+
+<PageTitle>Predictor</PageTitle>
+
+<div class="predictor-background">
+    <h1 class="title">Predict your favorite coffee shops!</h1>
+
+    <div class="card">
+        <p class="card-text">Your preferences and history will be used here to suggest coffee shops you'll love.</p>
+    </div>
+
+    <div class="predictor-buttons">
+        <button class="predictor-btn" @onclick="StartPrediction">Start Predict</button>
+    </div>
+
+    @if (PredictionResult != null)
+    {
+        <div class="card prediction-card">
+            <h2 class="prediction-title">Prediction Result</h2>
+            <p class="prediction-text"><strong>@PredictionResult.Name</strong></p>
+            <p class="prediction-text">Visited <strong>@PredictionResult.VisitCount</strong> times</p>
+        </div>
+    }
+    else
+    {
+        <p class ="noti">No prediction yet.</p>
+    }
+</div>
+
+<style>
+    .predictor-background {
+        min-height: 100vh;
+        padding: 2rem;
+    }
+    .card {
+        background-color: #ffffff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        margin: 1rem auto;
+        max-width: 600px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card-text {
+        font-size: 1.1rem;
+        color: #444;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .predictor-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .predictor-btn {
+        background-color: #6d4c41;
+        color: white;
+        padding: 0.7rem 1.5rem;
+        border-radius: 12px;
+        border: none;
+        font-size: 1rem;
+    }
+
+    .prediction-card {
+        margin-top: 2rem;
+        background-color: #fff8dc;
+        border-left: 6px solid #6d4c41;
+        text-align: center;
+    }
+
+    .prediction-title {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #6d4c41;
+        margin-bottom: 0.5rem;
+    }
+
+    .prediction-text {
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 0.3rem;
+    }
+    .noti {
+        text-align: center;
+        color: #888;
+        font-style: italic;
+        margin-top: 1rem;
+    }
+</style>
+@code {
+    
+    private CoffeeShop? PredictionResult;
+
+    private async Task StartPrediction()
+{
+    try
+    {
+        // Load full visit history and all coffee shops
+        var fullHistory = await DataManager.LoadHistoryAsync(); // from fullhistory.json
+        var allShops = await DataManager.LoadCafesAsync(); // required for prediction match
+
+        if (UserState.CurrentUser != null)
+        {
+            PredictionResult = UserState.CurrentUser.PredictNextShop(fullHistory, allShops);
+            Console.WriteLine($"Prediction: {PredictionResult?.Name ?? "None"}");
+               Console.WriteLine($"User: {UserState.CurrentUser.Username}");
+                Console.WriteLine($"IsPremium: {UserState.CurrentUser.IsPremium}");
+                Console.WriteLine($"Predictor type: {UserState.CurrentUser.GetType().Name}");
+
+        }
+        else
+        {
+            Console.WriteLine("No user is logged in.");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Prediction error: {ex.Message}");
+    }
+}
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (!UserState.IsLoggedIn)
+            {
+                await Task.Yield(); // Make sure user state loads
+                Nav.NavigateTo("/");
+                return;
+            }
+
+            
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Init error: {ex.Message}");
+        }
+    }
+}
+

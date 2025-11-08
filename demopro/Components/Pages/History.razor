@@ -1,0 +1,90 @@
+﻿@page "/history"
+@rendermode InteractiveServer
+@using demopro.Models
+@using demopro.Services
+@inject DataManager DataManager
+@inject UserState UserState
+@inject NavigationManager Nav
+
+<div class="page-wrapper history-background">
+    <h1 class="title">Your Visit History</h1>
+    @if (VisitedShops.Count == 0)
+    {
+        <p class="text-center text-gray-500">You haven't visited any coffee shops yet.</p>
+    }
+    else
+    {
+        <div class="grid md:grid-cols-2 gap-6">
+            @foreach (var shop in VisitedShops)
+            {
+                <div class="history-card">
+                    <h2 class="text-xl font-semibold">@shop.Name</h2>
+                    <p class="text-sm text-gray-500">Address: @shop.Address</p>
+                    <p class="text-yellow-500 mt-1">⭐ @shop.Rating</p>
+                    <p class="text-green-600 font-medium mt-2">
+                        Visits: @shop.VisitCount
+                    </p>
+                </div>
+            }
+        </div>
+    }
+</div>
+<style>
+    .history-background {
+        background-color: #fffaf0; /* soft cream */
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+    .history-card {
+        background-color: white;
+        padding: 1rem;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        margin: 1rem auto;
+        max-width: 600px;
+    }
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+</style>
+@code {
+    private List<CoffeeShop> VisitedShops { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Console.WriteLine("User logged in: " + UserState.IsLoggedIn);
+        Console.WriteLine("Is premium: " + UserState.IsPremiumUser);
+
+        try
+        {
+            if (!UserState.IsLoggedIn)
+            {
+                await Task.Yield(); // Wait for user state to be fully ready
+                Nav.NavigateTo("/");
+                return;
+            }
+
+            // Only premium users can access history/predictor
+            if (!UserState.CurrentUser.IsPremium)
+            {
+                Nav.NavigateTo("/");
+                return;
+            }
+
+            var allShops = await DataManager.LoadCafesAsync();
+            VisitedShops = allShops
+                .Where(s => s.VisitCount > 0)
+                .OrderByDescending(s => s.VisitCount)
+                .ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"❌ Error: {ex.Message}");
+        }
+
+    }
+}
